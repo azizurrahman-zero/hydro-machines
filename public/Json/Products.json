@@ -1,0 +1,90 @@
+[
+    {
+        "_id": "63c8e1191bc94954af8258f4",
+        "name": "100% Oil Free High PAC",
+        "category": "Compressor",
+        "supplier": "AF Compressors, Belgium",
+        "image": "../JsonImages/1.png",
+        "description": "AF Compressors -THE BEST 40 BAR PET SERVICE WORLDWIDE! AF has supplied more than 5000 units of 100% Oil Free High Pressure (40 bar) Air Compressors to more than 137 countries. As a proud partner of AF we have supplied more than 60 units of HP Compressors to Bangladesh that set us as leading and trusted partner in Mineral Water, Fruit Juice and Carbonated Beverage industries throughout Bangladesh."
+    },
+    {
+        "_id": "63c8e119c66cb9b32e03a5e1",
+        "name": "100% Oil Free Low PAC",
+        "category": "Compressor",
+        "supplier": "AF Compressors, Belgium",
+        "image": "../JsonImages/2.png",
+        "description": "AF Compressors -THE BEST 40 BAR PET SERVICE WORLDWIDE! AF has supplied more than 5000 units of 100% Oil Free High Pressure (40 bar) Air Compressors to more than 137 countries. As a proud partner of AF we have supplied more than 60 units of HP Compressors to Bangladesh that set us as leading and trusted partner in Mineral Water, Fruit Juice and Carbonated Beverage industries throughout Bangladesh."
+    },
+    {
+        "_id": "63c8e1195a62b9d72c71471f",
+        "name": "Air Cooled Chiller",
+        "category": "Chiller",
+        "supplier": "Singsung Engineering Co., Ltd., Korea",
+        "image": "../JsonImages/3.png",
+        "description": "Shinsung Engineering, one of the world's top commercial air conditioning manufactures, has long been committed to offering creative solutions for the customers' requirements over its 100+ years history in HVAC/R. Shinsung Engineering offers a complete range of HVAC/R products of large chillers, heat pumps, thermal energy storage, packaged, airside system and unitary to residences, commercial buildings & industrial facilities."
+    },
+    {
+        "_id": "63c8e1198273998138410f58",
+        "name": "Box Type Cooling Tower",
+        "category": "Cooling Tower",
+        "supplier": "King Sun Ind. Co., Ltd., Taiwan",
+        "image": "../JsonImages/4.png",
+        "description": "King Sun as a brand of Cooling Tower is now most trusted to hundreds of our customers for their requirements of Gas Generator Cooling, Condenser Cooling of Chiller (HVAC System) along-with other kinds of industrial process cooling. We have supplied hundreds of Counter Flow, Cross Flow, Bottle and Box type Cooling Tower to Bangladesh market."
+    },
+    {
+        "_id": "63c8e119d3ca553391ccd137",
+        "name": "Water Cooled Water Chiller",
+        "category": "Absorption Type Chiller",
+        "supplier": "Singsung Engineering Co., Ltd., Korea",
+        "image": "../JsonImages/5.png",
+        "description": "Shinsung Engineering as a daughter company of facmous Kiturami Group of Korea has been supplying Absorption Type Chiller for Industrial & Commercial HVAC and Process Cooling for more than 3 decades."
+    },
+    {
+        "_id": "63c8e11904f265a293baa9b6",
+        "name": "Bottle Type Cooling Tower",
+        "category": "Cooling Tower",
+        "supplier": "King Sun Ind. Co., Ltd., Taiwan",
+        "image": "../JsonImages/6.png",
+        "description": "King Sun as a brand of Cooling Tower is now most trusted to hundreds of our customers for their requirements of Gas Generator Cooling, Condenser Cooling of Chiller (HVAC System) along-with other kinds of industrial process cooling. We have supplied hundreds of Counter Flow, Cross Flow, Bottle and Box type Cooling Tower to Bangladesh market."
+    },
+    {
+        "_id": "63c8e119356942a82f9290d8",
+        "name": "Tri-lobe Roots Blower",
+        "category": "Blower",
+        "supplier": "Greatech Machinery Ind. Co., Ltd., Taiwan",
+        "image": "../JsonImages/7.png",
+        "description": "Data Needed"
+    },
+    {
+        "_id": "63c8e11982356f45298e4812",
+        "name": "Disc Diffuser",
+        "category": "Diffuser",
+        "supplier": "Greatech Machinery Ind. Co., Ltd., Taiwan",
+        "image": "",
+        "description": "Data Needed"
+    },
+    {
+        "_id": "63c8e119450f8962415d3639",
+        "name": "Marine Cranes",
+        "category": "Crane",
+        "supplier": "Palfinger Marine GmbH, Austria",
+        "image": "../JsonImages/9.png",
+        "description": "Palfinger is a global partner for innovative and reliable deck and lifesaving appliances, PALFINGER MARINE supplies high-quality products to fulfil standardised and customised demands. Supported worldwide by a network of experienced and skilled specialists, we provide flexible and efficient service solutions. Our portfolio gives a competitive edge for customers in the maritime and offshore industry. PALFINGER provides lifting and handling solutions to all major maritime segments, including offshore, marine, cruise, navy and coast guard and wind."
+    },
+    {
+        "_id": "63c8e119f68b9567b514fe9a",
+        "name": "Deck Equipment",
+        "category": "Data Needed",
+        "supplier": "Palfinger Marine GmbH, Austria",
+        "image": "",
+        "description": "Palfinger is a global partner for innovative and reliable deck and lifesaving appliances, PALFINGER MARINE supplies high-quality products to fulfil standardised and customised demands. Supported worldwide by a network of experienced and skilled specialists, we provide flexible and efficient service solutions. Our portfolio gives a competitive edge for customers in the maritime and offshore industry. PALFINGER provides lifting and handling solutions to all major maritime segments, including offshore, marine, cruise, navy and coast guard and wind."
+    },
+    {
+        "_id": "63c8e119a44bf667959b98b7",
+        "name": "Plate Heat Exchanger",
+        "category": "Heat Exchanger",
+        "supplier": "Accessen Shanghai Ind. Ltd., China",
+        "image": "../JsonImages/11.png",
+        "description": "Data Needed"
+    }
+]
