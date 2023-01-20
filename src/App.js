@@ -1,20 +1,22 @@
+import { useState, useEffect } from "react";
 import { Route, Routes } from "react-router-dom";
-import "./App.css";
-import Navbar from "./Components/Navbar";
-import Home from "./Pages/Home";
 
+import "./App.css";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import "swiper/css/free-mode";
+import "react-photo-view/dist/react-photo-view.css";
+
+import Navbar from "./Components/Navbar";
+import Home from "./Pages/Home";
 import Footer from "./Components/Footer";
 import AboutUs from "./Pages/AboutUs";
 import Services from "./Pages/Services";
 import Products from "./Pages/Products";
 import Events from "./Pages/Events";
 import NotFound from "./Pages/NotFound";
-import { useState } from "react";
-import { useEffect } from "react";
+
 import Loading from "./Pages/Loading";
 
 function App() {
