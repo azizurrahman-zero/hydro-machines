@@ -1,9 +1,36 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { useForm } from "react-hook-form";
+import { toast } from "react-toastify";
+import emailjs from "@emailjs/browser";
 
 import logo from "../Images/Logo/HydroMachines.png";
 
 const Footer = () => {
+  const getUpdate = (formData) => {
+    emailjs
+      .send("Hydro Machines", "HM Newsletter", formData, "gM5nfLrIyNCIvBFVQ")
+      .then(
+        () => {
+          toast.success("Subscribed successfully!", {
+            position: "top-right",
+          });
+          reset();
+        },
+        () => {
+          toast.error("Error! Subscribe again.", {
+            position: "top-right",
+          });
+        }
+      );
+  };
+
+  const {
+    register,
+    reset,
+    formState: { errors },
+    handleSubmit,
+  } = useForm();
   return (
     <footer className="footer md:justify-items-start justify-items-center md:mt-20 sm:mt-16 mt-14 2xl:px-40 lg:px-28 md:px-20 2xl:py-20 py-14 bg-[#0E1F51] text-white">
       <div className="gap-0 md:justify-items-start justify-items-center">
@@ -108,16 +135,42 @@ const Footer = () => {
               Enter your email address
             </span>
           </label>
-          <div className="relative">
-            <input
-              type="text"
-              placeholder="Email"
-              className="input text-primary input-bordered w-full pr-16"
-            />
-            <button className="btn absolute top-0 right-0 rounded-l-none normal-case font-semibold text-white text-base bg-secondary border-none hover:border-none hover:bg-[#ed1b24bf] px-5 py-2.5 text_raleway">
-              Subscribe
-            </button>
-          </div>
+          <form onSubmit={handleSubmit(getUpdate)}>
+            <div className="relative">
+              <input
+                type="text"
+                id="email"
+                name="email"
+                placeholder="Email"
+                className="input text-primary input-bordered w-full pr-16"
+                {...register("email", {
+                  required: {
+                    value: true,
+                    message: "*Enter an email",
+                  },
+                  pattern: {
+                    value: /^[\w-.]+@([\w-]+\.)+[\w-]{2,4}$/,
+                    message: "*Please enter a valid email",
+                  },
+                })}
+              />
+              <button className="btn absolute top-0 right-0 rounded-l-none normal-case font-semibold text-white text-base bg-secondary border-none hover:border-none hover:bg-[#ed1b24bf] px-5 py-2.5 text_raleway">
+                Subscribe
+              </button>
+            </div>
+            <label className="label py-0">
+              {errors.email?.type === "required" && (
+                <span className="label-text-alt text-error">
+                  {errors.email.message}
+                </span>
+              )}
+              {errors.email?.type === "pattern" && (
+                <span className="label-text-alt text-error">
+                  {errors.email.message}
+                </span>
+              )}
+            </label>
+          </form>
         </div>
       </div>
     </footer>

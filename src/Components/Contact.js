@@ -1,21 +1,38 @@
 import React from "react";
 import { useForm } from "react-hook-form";
+import emailjs from "@emailjs/browser";
 import { FiPhoneCall } from "react-icons/fi";
 import { MdMailOutline } from "react-icons/md";
 import { BiMap } from "react-icons/bi";
 import { Link } from "react-router-dom";
+import { toast } from "react-toastify";
 
 const Contact = () => {
   const {
     register,
+    reset,
     formState: { errors },
     handleSubmit,
   } = useForm();
 
-  const onSubmit = async (data) => {
-    const { name, email, password } = data;
-    console.log(name, email, password);
+  const sendEmail = (formData) => {
+    emailjs
+      .send("Hydro Machines", "HM Message", formData, "gM5nfLrIyNCIvBFVQ")
+      .then(
+        () => {
+          toast.success("Message sent successfully!", {
+            position: "bottom-right",
+          });
+          reset();
+        },
+        () => {
+          toast.error("Error! Send again.", {
+            position: "bottom-right",
+          });
+        }
+      );
   };
+
   return (
     <div
       id="contact"
@@ -30,10 +47,12 @@ const Contact = () => {
       <div className="grid 2xl:grid-cols-[2fr_1fr] xl:grid-cols-[1.5fr_1fr] lg:grid-cols-2 gap-10  xl:pt-14 pt-10 xl:px-24 sm:px-10 px-5">
         <div className="card w-full bg-base-100">
           <div className="card-body">
-            <form onSubmit={handleSubmit(onSubmit)}>
+            <form onSubmit={handleSubmit(sendEmail)}>
               <div className="form-control">
                 <input
                   type="text"
+                  name="name"
+                  id="name"
                   placeholder="Name"
                   className="input focus:outline-offset-0 text-base bg-accent text-[#252525] font-medium text_raleway"
                   {...register("name", {
@@ -53,6 +72,8 @@ const Contact = () => {
               </div>
               <div className="form-control">
                 <input
+                  name="email"
+                  id="email"
                   type="email"
                   placeholder="Email Address"
                   className="input focus:outline-offset-0 text-base bg-accent text-[#252525] font-medium text_raleway"
@@ -82,6 +103,8 @@ const Contact = () => {
               </div>
               <div className="form-control">
                 <input
+                  name="phone"
+                  id="phone"
                   type="tel"
                   placeholder="Phone"
                   className="input focus:outline-offset-0 text-base bg-accent text-[#252525] font-medium text_raleway"
@@ -111,6 +134,8 @@ const Contact = () => {
               </div>
               <div className="form-control">
                 <textarea
+                  name="message"
+                  id="message"
                   rows="5"
                   placeholder="Your Message"
                   className="textarea focus:outline-offset-0 text-base bg-accent text-[#252525] font-medium text_raleway"
