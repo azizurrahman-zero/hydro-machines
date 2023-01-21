@@ -56,7 +56,7 @@ const Navbar = () => {
     </>
   );
   return (
-    <div className="navbar relative bg-base-100 lg:mx-20 mx-5 lg:my-8 my-5 2xl:py-7 xl:py-6 sm:py-4 py-3 2xl:px-9 xl:px-7 sm:px-5 pl-4 drop-shadow-2xl rounded-2xl w-[unset]">
+    <div className="navbar relative bg-base-100 lg:mx-20 mx-5 lg:mb-8 mb-5 2xl:py-7 xl:py-6 sm:py-4 py-3 2xl:px-9 xl:px-7 sm:px-5 pl-4 drop-shadow-2xl rounded-2xl w-[unset]">
       <div className="flex-1">
         <Link
           to="/"

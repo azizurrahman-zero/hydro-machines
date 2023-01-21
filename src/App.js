@@ -31,7 +31,7 @@ function App() {
   }
 
   return (
-    <div className="App">
+    <div className="App lg:pt-8 pt-5">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
