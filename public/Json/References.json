@@ -1,97 +1,97 @@
 [
     {
         "_id": "63c6442ecb48ec63650f4977",
-        "logo": "../JsonImages/Unilever.png",
+        "logo": "../JsonImages/References/Unilever.png",
         "name": "Unilever Bangladesh Ltd.",
         "url": "//www.unilever.com"
     },
     {
         "_id": "63c6442e657642a581a46cbf",
-        "logo": "../JsonImages/RFL.png",
+        "logo": "../JsonImages/References/RFL.png",
         "name": "PRAN-RFL Group",
         "url": "//www.rflbd.com/"
     },
     {
         "_id": "63c6442e26dab489e8fbf614",
-        "logo": "../JsonImages/TkGroup.png",
+        "logo": "../JsonImages/References/TkGroup.png",
         "name": "TK Group",
         "url": "//www.tkgroupbd.com/"
     },
     {
         "_id": "63c6442e7bcceae280dfbea2",
-        "logo": "../JsonImages/BSRM.png",
+        "logo": "../JsonImages/References/BSRM.png",
         "name": "BSRM",
         "url": "//www.bsrm.com"
     },
     {
         "_id": "63c6442e5c0ab362c6bdc265",
-        "logo": "../JsonImages/CocaCola.png",
+        "logo": "../JsonImages/References/CocaCola.png",
         "name": "International Beverage Pvt. Ltd. (Coca Cola)",
         "url": "//www.coca-cola.com.bd/bn/home"
     },
     {
         "_id": "63c6442e0e1a7dd1f1f02770",
-        "logo": "../JsonImages/Partex.png",
+        "logo": "../JsonImages/References/Partex.png",
         "name": "Partex Group",
         "url": "//www.partexstargroup.com/"
     },
     {
         "_id": "63c6442e79ffb175cdc1dbd5",
-        "logo": "../JsonImages/Linde.png",
+        "logo": "../JsonImages/References/Linde.png",
         "name": "Linde BD Ltd",
         "url": "//www.linde.com.bd/en/index.html"
     },
     {
         "_id": "63c6442e85dc4c87bed38d49",
-        "logo": "../JsonImages/GPHIspat.png",
+        "logo": "../JsonImages/References/GPHIspat.png",
         "name": "GPH Ispat",
         "url": "//www.gphispat.com.bd/"
     },
     {
         "_id": "63c6442efb690db8b91cca12",
-        "logo": "../JsonImages/Pepsi.png",
+        "logo": "../JsonImages/References/Pepsi.png",
         "name": "Transcom Beverage Ltd.",
         "url": "//www.transcombd.com/businesses/beverages/transcom-beverages/"
     },
     {
         "_id": "63c6442ef11bebb98b624700",
-        "logo": "../JsonImages/MGI.png",
+        "logo": "../JsonImages/References/MGI.png",
         "name": "Meghna Group",
         "url": "//www.mgi.org/"
     },
     {
         "_id": "63c6442e16c23022e613a013",
-        "logo": "../JsonImages/AbdulMomen.png",
+        "logo": "../JsonImages/References/AbdulMomen.png",
         "name": "Abdul Monem Ltd.",
         "url": "//www.amlbd.com/"
     },
     {
         "_id": "63c6442ebbe84011731d03e8",
-        "logo": "../JsonImages/AbulKhair.png",
+        "logo": "../JsonImages/References/AbulKhair.png",
         "name": "Abul Khair Group",
         "url": "//www.abulkhairgroup.com/"
     },
     {
         "_id": "63c6442ee97f104ab7e33bce",
-        "logo": "../JsonImages/Berger.png",
+        "logo": "../JsonImages/References/Berger.png",
         "name": "Berger Paints Bangladesh Ltd.",
         "url": "//www.bergerbd.com/"
     },
     {
         "_id": "63c6442ef8586aee65f039bb",
-        "logo": "../JsonImages/CityGroup.png",
+        "logo": "../JsonImages/References/CityGroup.png",
         "name": "City Group",
         "url": "//www.citygroup.com.bd/"
     },
     {
         "_id": "63c6442e37ae3dc4970e577a",
-        "logo": "../JsonImages/Globe.png",
+        "logo": "../JsonImages/References/Globe.png",
         "name": "Globe Soft Drinks Ltd.",
         "url": "//www.globe.com.bd/"
     },
     {
         "_id": "63c6442ef94c0f676e7e5ee7",
-        "logo": "../JsonImages/Ispahani.png",
+        "logo": "../JsonImages/References/Ispahani.png",
         "name": "Pahartali Textiles Ltd.",
         "url": "//www.ispahanibd.com/"
     }

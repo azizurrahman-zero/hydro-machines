@@ -1,5 +1,4 @@
 import React from "react";
-import Contact from "../Components/Contact";
 import Hero from "../Components/Hero";
 import Products from "../Components/Products";
 import References from "../Components/References";
@@ -12,7 +11,6 @@ const Home = () => {
       <References />
       <Products />
       <Team />
-      <Contact />
     </div>
   );
 };

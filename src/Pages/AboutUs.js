@@ -1,5 +1,6 @@
 import React from "react";
 import Iframe from "react-iframe";
+import Contact from "../Components/Contact";
 import Team from "../Components/Team";
 
 const AboutUs = () => {
@@ -39,6 +40,7 @@ const AboutUs = () => {
         </div>
       </div>
       <Team />
+      <Contact />
     </>
   );
 };

@@ -47,7 +47,7 @@ const Navbar = () => {
       </li>
       <li className="xl:flex hidden">
         <HashLink
-          to="home/#contact"
+          to="about-us/#contact"
           className="btn ml-4 text-white normal-case font-semibold text-base bg-secondary border-none hover:border-none hover:bg-[#ed1b24bf] px-5 py-2.5 text_raleway"
         >
           Get In Touch
