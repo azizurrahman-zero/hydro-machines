@@ -1,23 +1,23 @@
 [
     {
         "_id": "63c8e1191bc94954af8258f4",
-        "name": "100% Oil Free High PAC",
-        "category": "Compressor",
+        "name": "100% Oil Free High Pressure Air Compressor",
+        "category": "Air Compressor",
         "supplier": "AF Compressors, Belgium",
         "image": "../JsonImages/Products/1.png",
         "description": "AF Compressors -THE BEST 40 BAR PET SERVICE WORLDWIDE! AF has supplied more than 5000 units of 100% Oil Free High Pressure (40 bar) Air Compressors to more than 137 countries. As a proud partner of AF we have supplied more than 60 units of HP Compressors to Bangladesh that set us as leading and trusted partner in Mineral Water, Fruit Juice and Carbonated Beverage industries throughout Bangladesh."
     },
     {
         "_id": "63c8e119c66cb9b32e03a5e1",
-        "name": "100% Oil Free Low PAC",
-        "category": "Compressor",
+        "name": "100% Oil Free Low Pressure Air Compressor",
+        "category": "Air Compressor",
         "supplier": "AF Compressors, Belgium",
         "image": "../JsonImages/Products/2.png",
-        "description": "AF Compressors -THE BEST 40 BAR PET SERVICE WORLDWIDE! AF has supplied more than 5000 units of 100% Oil Free High Pressure (40 bar) Air Compressors to more than 137 countries. As a proud partner of AF we have supplied more than 60 units of HP Compressors to Bangladesh that set us as leading and trusted partner in Mineral Water, Fruit Juice and Carbonated Beverage industries throughout Bangladesh."
+        "description": "AF Compressors -THE BEST 40 & 10 BAR PET SERVICE WORLDWIDE! AF has supplied more than 5000 units of 100% Oil Free High Pressure (40 bar) Air Compressors to more than 137 countries. As a proud partner of AF we have supplied more than 60 units of HP Compressors to Bangladesh that set us as leading and trusted partner in Mineral Water, Fruit Juice and Carbonated Beverage industries throughout Bangladesh."
     },
     {
         "_id": "63c8e1195a62b9d72c71471f",
-        "name": "Air Cooled Chiller",
+        "name": "Air & Water Cooled Chiller",
         "category": "Chiller",
         "supplier": "Singsung Engineering Co., Ltd., Korea",
         "image": "../JsonImages/Products/3.png",
@@ -25,7 +25,7 @@
     },
     {
         "_id": "63c8e1198273998138410f58",
-        "name": "Box Type Cooling Tower",
+        "name": "Box & Bottle Type Cooling Tower",
         "category": "Cooling Tower",
         "supplier": "King Sun Ind. Co., Ltd., Taiwan",
         "image": "../JsonImages/Products/4.png",
@@ -66,8 +66,8 @@
     {
         "_id": "63c8e119450f8962415d3635",
         "name": "Stahl Crane Systems",
-        "category": "Crane",
-        "supplier": "Palfinger Marine GmbH, Austria",
+        "category": "Overhead Crane",
+        "supplier": "STAHL CraneSystems, Germany",
         "image": "../JsonImages/Products/9.png",
         "description": "The hoisting and crane technology from STAHL CraneSystems ranks among the most distinctive and comprehensive on offer worldwide. The high-quality components are among the best available anywhere from a technical point of view. Users, crane manufacturers and system builders value these economical components and complete solutions that prove their worth in use day after day"
     },

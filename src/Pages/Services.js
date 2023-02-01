@@ -13,7 +13,7 @@ const Services = () => {
             <h5 className="text-primary font-medium 2xl:text-3xl xl:text-2xl md:text-xl sm:text-base text-sm text_raleway">
               Supply, Installation & Commissioning of
             </h5>
-            <h3 className="pt-1 text-secondary font-extrabold lg:text-4xl md:text-3xl sm:text-2xl text-lg text_raleway">
+            <h3 className="pt-1 text-secondary font-extrabold lg:text-3xl md:text-2xl sm:text-xl text-lg text_raleway">
               100% Oil Free High Pressure (40 bar) Air Compressor
             </h3>
           </div>
@@ -21,7 +21,7 @@ const Services = () => {
             <h5 className="text-primary font-medium 2xl:text-3xl xl:text-2xl md:text-xl sm:text-base text-sm text_raleway">
               Supply, Installation & Commissioning of
             </h5>
-            <h3 className="pt-1 text-secondary font-extrabold lg:text-4xl md:text-3xl sm:text-2xl text-lg text_raleway">
+            <h3 className="pt-1 text-secondary font-extrabold lg:text-3xl md:text-2xl sm:text-xl text-lg text_raleway">
               HVAC Solution for Commercial Buildings
             </h3>
           </div>
@@ -29,8 +29,8 @@ const Services = () => {
             <h5 className="text-primary font-medium 2xl:text-3xl xl:text-2xl md:text-xl sm:text-base text-sm text_raleway">
               Supply, Installation & Commissioning of
             </h5>
-            <h3 className="pt-1 text-secondary font-extrabold lg:text-4xl md:text-3xl sm:text-2xl text-lg text_raleway">
-              Industrial Process Cooling Systems
+            <h3 className="pt-1 text-secondary font-extrabold lg:text-3xl md:text-2xl sm:text-xl text-lg text_raleway">
+              Trilobe Roots Blower for Waste Water Treatment Plant
             </h3>
           </div>
           <div className="pt-10">
