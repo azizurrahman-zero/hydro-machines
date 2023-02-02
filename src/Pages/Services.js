@@ -9,28 +9,67 @@ const Services = () => {
           Our Services
         </h1>
         <div className="gap-4 2xl:px-40 pt-10 flex flex-col">
-          <div className="bg-[#f7f7f799] rounded-xl px-7 py-8 shadow">
-            <h5 className="text-primary font-medium 2xl:text-3xl xl:text-2xl md:text-xl sm:text-base text-sm text_raleway">
+          {/* <div className="bg-[#f7f7f799] rounded-xl px-7 py-8 shadow">
+            <h5 className="font-medium 2xl:text-2xl xl:text-2xl md:text-xl sm:text-base text-sm text_raleway">
               Supply, Installation & Commissioning of
             </h5>
-            <h3 className="pt-1 text-secondary font-extrabold lg:text-3xl md:text-2xl sm:text-xl text-lg text_raleway">
+            <h3 className="pt-1 text-primary font-extrabold lg:text-[28px] md:text-2xl sm:text-xl text-lg text_raleway">
               100% Oil Free High Pressure (40 bar) Air Compressor
             </h3>
-          </div>
+            <h3 className="pt-1 text-primary font-extrabold lg:text-[28px] md:text-2xl sm:text-xl text-lg text_raleway">
+              100% Oil Free Low Pressure (10 bar) Air Compressor
+            </h3>
+            <h3 className="pt-1 text-primary font-extrabold lg:text-[28px] md:text-2xl sm:text-xl text-lg text_raleway">
+              HVAC Solution for Commercial Buildings
+            </h3>
+            <h3 className="pt-1 text-primary font-extrabold lg:text-[28px] md:text-2xl sm:text-xl text-lg text_raleway">
+              Air & Water Cooled Chiller for Industrial Process Cooling
+            </h3>
+            <h3 className="pt-1 text-primary font-extrabold lg:text-[28px] md:text-2xl sm:text-xl text-lg text_raleway">
+              Overhead Crane Systems for Natrerial Handling/Lifting Solution
+            </h3>
+            <h3 className="pt-1 text-primary font-extrabold lg:text-[28px] md:text-2xl sm:text-xl text-lg text_raleway">
+              Tri-lobe Roots Blower for Waste Water Treatment Plant
+            </h3>
+            <h3 className="pt-1 text-primary font-extrabold lg:text-[28px] md:text-2xl sm:text-xl text-lg text_raleway">
+              Plate Heat Exchanger for Industrial Application
+            </h3>
+          </div> */}
+
           <div className="bg-[#f7f7f799] rounded-xl px-7 py-8 shadow">
-            <h5 className="text-primary font-medium 2xl:text-3xl xl:text-2xl md:text-xl sm:text-base text-sm text_raleway">
+            <h5 className="font-medium pb-3 2xl:text-2xl xl:text-2xl md:text-xl sm:text-base text-sm text_raleway">
               Supply, Installation & Commissioning of
             </h5>
-            <h3 className="pt-1 text-secondary font-extrabold lg:text-3xl md:text-2xl sm:text-xl text-lg text_raleway">
-              HVAC Solution for Commercial Buildings
+            <h3 className="pt-1 text-primary font-extrabold lg:text-[28px] md:text-2xl sm:text-xl text-lg text_raleway">
+              100% Oil Free High Pressure (40 bar) Air Compressor
+            </h3>
+            <h3 className="pt-1 text-primary font-extrabold lg:text-[28px] md:text-2xl sm:text-xl text-lg text_raleway">
+              100% Oil Free Low Pressure (10 bar) Air Compressor
             </h3>
           </div>
           <div className="bg-[#f7f7f799] rounded-xl px-7 py-8 shadow">
-            <h5 className="text-primary font-medium 2xl:text-3xl xl:text-2xl md:text-xl sm:text-base text-sm text_raleway">
+            <h5 className="font-medium pb-3 2xl:text-2xl xl:text-2xl md:text-xl sm:text-base text-sm text_raleway">
               Supply, Installation & Commissioning of
             </h5>
-            <h3 className="pt-1 text-secondary font-extrabold lg:text-3xl md:text-2xl sm:text-xl text-lg text_raleway">
-              Trilobe Roots Blower for Waste Water Treatment Plant
+            <h3 className="pt-1 text-primary font-extrabold lg:text-[28px] md:text-2xl sm:text-xl text-lg text_raleway">
+              HVAC Solution for Commercial Buildings
+            </h3>
+            <h3 className="pt-1 text-primary font-extrabold lg:text-[28px] md:text-2xl sm:text-xl text-lg text_raleway">
+              Air & Water Cooled Chiller for Industrial Process Cooling
+            </h3>
+            <h3 className="pt-1 text-primary font-extrabold lg:text-[28px] md:text-2xl sm:text-xl text-lg text_raleway">
+              Overhead Crane Systems for Natrerial Handling/Lifting Solution
+            </h3>
+          </div>
+          <div className="bg-[#f7f7f799] rounded-xl px-7 py-8 shadow">
+            <h5 className="font-medium pb-3 2xl:text-2xl xl:text-2xl md:text-xl sm:text-base text-sm text_raleway">
+              Supply, Installation & Commissioning of
+            </h5>
+            <h3 className="pt-1 text-primary font-extrabold lg:text-[28px] md:text-2xl sm:text-xl text-lg text_raleway">
+              Tri-lobe Roots Blower for Waste Water Treatment Plant
+            </h3>
+            <h3 className="pt-1 text-primary font-extrabold lg:text-[28px] md:text-2xl sm:text-xl text-lg text_raleway">
+              Plate Heat Exchanger for Industrial Application
             </h3>
           </div>
           <div className="pt-10">
