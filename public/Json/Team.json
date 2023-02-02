@@ -1,15 +1,15 @@
 [
     {
-        "_id": "63cc02932d6fe13dbf75d74a",
-        "name": "Engr. Raiyan Silvia Habib",
-        "designation": "Assistant Sales Manager, Air Compressors",
-        "image": "../JsonImages/Team/1.png"
-    },
-    {
         "_id": "63cc0293b6ada3ef84bcd41f",
         "name": "Engr. Khurshed Alam",
         "designation": "B. Sc. Engg. (Mechanical), CUET, MIEB General Manager (Business Development & Operation)",
         "image": "../JsonImages/Team/2.png"
+    },
+    {
+        "_id": "63cc02932d6fe13dbf75d74a",
+        "name": "Engr. Raiyan Silvia Habib",
+        "designation": "Assistant Sales Manager, Air Compressors",
+        "image": "../JsonImages/Team/1.png"
     },
     {
         "_id": "63cc02939021447284092abb",
